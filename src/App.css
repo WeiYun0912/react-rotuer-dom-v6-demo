@@ -1,0 +1,27 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+nav {
+  font-size: 2em;
+  margin-top: 20px;
+}
+
+nav span {
+  cursor: pointer;
+}
+
+nav span a {
+  color: #fff;
+}
+
+nav span a:hover {
+  color: rgb(225, 225, 225);
+}
+
+.active {
+  text-decoration: underline;
+}
